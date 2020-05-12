@@ -1,8 +1,18 @@
+test_meals = {
+    'Lunch': {
+        'cottage cheese': 2.5,
+        'spinach': 0.5,
+        'avocado': 1.6,
+        'red pepper': 1,
+        'lettuce': 1.5,
+    },
+}
+
 fabian_meals = {
 
     'Lunch': {
         'cheese': 0.7,
-        'coconut fat': 0,
+        'cocoanut fat': 0,
         'eggs': 0,
         'leek': 0,
         'mushrooms': 0,
