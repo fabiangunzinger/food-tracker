@@ -26,7 +26,7 @@ fabian_meals = {
         'avocado, fresh': 0.8,
         'bell pepper, red, raw': 0.3,
 
-        'chicken, leg with skin, roasted (without addition of fat and salt)': 2.5,
+        'chicken, leg with skin, roasted (without addition of fat and salt)': 2,
 
         'coconut fat': 0.2,
         'kohlrabi, steamed (without addition of salt)': 0.4,

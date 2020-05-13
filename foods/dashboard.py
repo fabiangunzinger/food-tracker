@@ -84,7 +84,7 @@ def make_data(meal_dict, data):
     return meal_data
 
 
-def meal_plots(meal_data):
+def meal_plots(meal_data, figsize=(14, 7)):
 
     def meals_autopct(values):
         def pct_labels(pct):
@@ -100,7 +100,7 @@ def meal_plots(meal_data):
     num_meals = len(meal_data)
     axsize = 20
 
-    fig, ax = plt.subplots(2, num_meals)
+    fig, ax = plt.subplots(2, num_meals, figsize=figsize)
 
     ax[0, 0].set_ylabel('Grams', fontsize=axsize)
     ax[1, 0].set_ylabel('Calories', fontsize=axsize)
@@ -117,10 +117,11 @@ def meal_plots(meal_data):
             ax[row, col].set_xlabel(f'Total: {total:.0f} {measure}')
             ax[0, col].set_title(meal, fontsize=axsize)
 
-    fig.legend(['Fat', 'Protein', 'Fiber', 'Carbs'], framealpha=0, loc='lower center', ncol=2, fontsize=15);
+    fig.legend(['Fat', 'Protein', 'Fiber', 'Carbs'], framealpha=0, bbox_to_anchor=(1, 1),
+           bbox_transform=plt.gcf().transFigure, ncol=1, fontsize=15)
 
 
-def nuts_plots(meal_data):
+def nuts_plots(meal_data, figsize=(14, 7)):
 
     def nuts_autopct(values):
         def pct_labels(pct):
@@ -128,7 +129,7 @@ def nuts_plots(meal_data):
             return  f'{grams:.0f}g\n({pct:.0f}%)'
         return pct_labels
 
-    fig, ax = plt.subplots(1, 4)
+    fig, ax = plt.subplots(1, 4, figsize=figsize)
 
     axsize = 20
 
@@ -144,3 +145,4 @@ def nuts_plots(meal_data):
         labels = [i[:25] for i in data.index]
         ax[idx].legend(labels, loc='lower center',
                        framealpha=0, borderaxespad=-7)
+        ax[0].set_ylabel('Nutrients', fontsize=axsize)
