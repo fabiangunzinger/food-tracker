@@ -145,4 +145,4 @@ def nuts_plots(meal_data, figsize=(14, 7)):
         labels = [i[:25] for i in data.index]
         ax[idx].legend(labels, loc='lower center',
                        framealpha=0, borderaxespad=-7)
-        ax[0].set_ylabel('Nutrients', fontsize=axsize)
+        ax[0].set_ylabel('Grams', fontsize=axsize)

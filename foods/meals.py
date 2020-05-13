@@ -29,9 +29,9 @@ fabian_meals = {
         'chicken, leg with skin, roasted (without addition of fat and salt)': 2,
 
         'coconut fat': 0.2,
-        'kohlrabi, steamed (without addition of salt)': 0.4,
-        'carrot, steamed (without addition of salt)': 0.2,
-        'cauliflower, steamed (without addition of salt)': 0.4,
+        'kohlrabi, steamed (without addition of salt)': 0.5,
+        'carrot, steamed (without addition of salt)': 0.5,
+        'cauliflower, steamed (without addition of salt)': 0.5,
         'vegetables (average), raw': 1
     }
 }
