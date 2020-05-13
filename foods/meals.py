@@ -1,39 +1,38 @@
-test_meals = {
-    'Lunch': {
-        'cottage cheese': 2.5,
-        'spinach': 0.5,
-        'avocado': 1.6,
-        'red pepper': 1,
-        'lettuce': 1.5,
-    },
-}
-
 fabian_meals = {
 
     'Lunch': {
-        'cheese': 0.7,
-        'cocoanut fat': 0,
-        'eggs': 0,
-        'leek': 0,
-        'mushrooms': 0,
-        'spinach': 0.5,
+        'coconut fat': 0.2,
+        'scrambled eggs, prepared': 2.4,
+        'mushroom, stewed (without addition of fat and salt)': 0.5,
+        'spinach, steamed (without addition of salt)': 0.5,
 
-        'avocado': 1.6,
-        'lettuce': 0.5,
-        'nuts and seed mix': 0.3,
-        'olive oil': 0,
-        'red pepper': 0,
+        'iceberg lettuce, raw': 0.5,
+        'avocado, fresh': 1.6,
+        'bell pepper, red, raw': 0.5,
+        'seeds, kernels, nuts (average), unsalted': 0.2,
+        'olive oil': 0.2,
+        'vinegar': 0.1,
     },
 
     'Snack': {
-        'nuts and seed mix': 1,
-        'cheese': 0,
+        'coconut fat': 0.2,
+        'cocoa powder': 0.05,
+        'coffee, black, no sugar added': 1,
+        'brazil nut': 0.5
     },
 
     'Supper': {
-        'chicken': 2,
-        'vegetables': 2,
-        'coconut fat': .3,
+        'iceberg lettuce, raw': 0.3,
+        'avocado, fresh': 0.8,
+        'bell pepper, red, raw': 0.3,
+
+        'chicken, leg with skin, roasted (without addition of fat and salt)': 2.5,
+
+        'coconut fat': 0.2,
+        'kohlrabi, steamed (without addition of salt)': 0.4,
+        'carrot, steamed (without addition of salt)': 0.2,
+        'cauliflower, steamed (without addition of salt)': 0.4,
+        'vegetables (average), raw': 1
     }
 }
 
