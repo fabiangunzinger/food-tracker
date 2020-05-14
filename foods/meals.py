@@ -1,21 +1,21 @@
 fabian_meals = {
 
     'Lunch': {
-        'coconut fat': 0.4,
+        'coconut fat': 0.2,
         'scrambled eggs, prepared': 2.4,
-        'mushroom, stewed (without addition of fat and salt)': 0.5,
-        'spinach, steamed (without addition of salt)': 0.5,
+        'mushroom, stewed (without addition of fat and salt)': 1,
+        'spinach, steamed (without addition of salt)': 0.6,
 
         'iceberg lettuce, raw': 0.5,
         'avocado, fresh': 1.6,
-        'bell pepper, red, raw': 0.4,
-        'seeds, kernels, nuts (average), unsalted': 0.2,
+        'bell pepper, red, raw': 0.3,
+        'seeds, kernels, nuts (average), unsalted': 0.25,
         'olive oil': 0.2,
         'vinegar': 0.1,
     },
 
     'Snack': {
-        'coconut fat': 0.2,
+        'coconut fat': 0.3,
         'cocoa powder': 0.05,
         'coffee, black, no sugar added': 1,
         'brazil nut': 0.5

@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def read_database():
     def str_to_numeric(df):
-        cols = ['calories', 'fat', 'carbs', 'sugar', 'fiber', 'protein']
+        cols = ['fat', 'carbs', 'sugar', 'fiber', 'protein']
         df[cols] = df[cols].apply(pd.to_numeric, errors='coerce')
         return df
 
@@ -17,8 +17,7 @@ def read_database():
     columns = {
         'Name': 'ingredient',
         'Category': 'category',
-        'Matrix unit': 'units',
-        'Energy, kilocalories (kcal)': 'calories',
+        # 'Matrix unit': 'units',
         'Fat, total (g)': 'fat',
         'Carbohydrates, available (g)': 'carbs',
         'Protein (g)': 'protein',
@@ -51,7 +50,7 @@ def get_meal_data(meal, data):
     # Grams data
     data = (data[data.ingredient.isin(meal)].copy()
             .set_index('ingredient')
-            .drop(['units', 'category', 'calories', 'sugar'], axis=1))
+            .drop(['category', 'sugar'], axis=1))
     portion = data.index.map(meal)
     grams = data.multiply(portion, axis=0)
     grams = grams[['fat', 'protein', 'fiber', 'carbs']]
