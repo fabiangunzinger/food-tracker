@@ -11,19 +11,24 @@ fabian_meals = {
     'Drinks': {
         'chicory coffee': 0.05,
         'spirulina': 0.03,
+        'kallo chicken stock cube': 1,
     },
     
     'Lunch': {
-        'butter of choice': 0.2,
-        'medium cheddar': 0.5,
-        'scrambled eggs, prepared': 3, # 5 small eggs
+        'tesco bacon': 0.6,
+        'medium cheddar': 0.4,
+        
+        'butter of choice': 0.25,
+        'scrambled eggs, prepared': 1.80, # 3 small eggs
+        'heck chicken sausages': 1.70,
+
         'mushroom, stewed (without addition of fat and salt)': 0.5,
+        'tomato, raw': 0.6,
         'spinach, steamed (without addition of salt)': 0.5,
-        'iceberg lettuce, raw': 0.5, # lettuce mix
+
+        'iceberg lettuce, raw': 0.4, # lettuce mix
         'avocado, fresh': 1, # one small avocados
-        'tomato, raw': 0.2,
-        'olive oil': 0.2,
-        'mayonnaise': 0.2,
+        'olive oil': 0.1,
     },
     
     'Snack': {
