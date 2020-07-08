@@ -8,8 +8,14 @@ fabian_meals = {
 #         'cauliflower, steamed (without addition of salt)': 0.8,# quarter head
 #     },
     
+    'Drinks': {
+        'chicory coffee': 0.05,
+        'spirulina': 0.03,
+    },
+    
     'Lunch': {
         'butter of choice': 0.2,
+        'medium cheddar': 0.5,
         'scrambled eggs, prepared': 3, # 5 small eggs
         'mushroom, stewed (without addition of fat and salt)': 0.5,
         'spinach, steamed (without addition of salt)': 0.5,
@@ -23,6 +29,7 @@ fabian_meals = {
     'Snack': {
         'brazil nut': 0.3,
         'macadamia nuts': 0.3,
+        'medium cheddar': 0.5,
         'fish product, sardine in oil, drained': 1,
         'mayonnaise': 0.2,
         'pip & nut almont butter': 0.3,
