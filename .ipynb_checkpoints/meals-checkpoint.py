@@ -1,3 +1,166 @@
+jan17_2021 = {
+
+    'breakfast': {    
+        'butter of choice': 0.1,
+        'egg, raw': 1.8,        
+        'spinach, raw': 0.2, 
+        'kale, raw': 0.2,
+        'avocado, fresh': 0.8,
+        'alpro coconut milk': 5,
+        'myprotein eggwhite powder': 0.4,
+        'coco powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+        'spirulina': 0.05,
+    },
+    'lunch': {
+        'chicken, breast, without skin, raw (switzerland)': 2.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.8,
+        'bell pepper, red, raw': 0.4,
+        'olive oil': 0.05,
+        'mayonnaise': 0.1,
+    },
+    'snack': {
+        'fish product, sardine in oil, drained': 0.9,
+    }
+}
+
+
+jan10_2021 = {
+
+    'breakfast': {    
+        'butter of choice': 0.1,
+        'egg, raw': 1.8,        
+        'spinach, raw': 0.2, 
+        'kale, raw': 0.2,
+        'avocado, fresh': 0.8,
+        'alpro coconut milk': 5,
+        'myprotein eggwhite powder': 0.5,
+        'coco powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+        'spirulina': 0.05,
+    },
+    'lunch': {
+        'chicken, breast, without skin, raw (switzerland)': 2,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.8,
+        'bell pepper, red, raw': 0.4,
+        'olive oil': 0.2,
+        'mayonnaise': 0.2,
+    },
+    'snack': {
+        'fish product, sardine in oil, drained': 1.8,
+    }
+}
+
+jan02_2021 = {
+
+    'breakfast': {    
+        'butter of choice': 0.1,
+        'egg, raw': 1.8,        
+        'spinach, raw': 0.2, 
+        'kale, raw': 0.2,
+        'avocado, fresh': 0.8,
+        'alpro coconut milk': 5,
+        'whey isolate': 0.25,
+        'coco powder': 0.02,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+        'spirulina': 0.05,
+        'kallo chicken stock': 0.5,
+    },
+    'lunch': {
+        'chicken, breast, without skin, raw (switzerland)': 2,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.8,
+        'bell pepper, red, raw': 0.4,
+        'olive oil': 0.2,
+    },
+    'snack': {
+        'fish product, sardine in oil, drained': 1.8,
+    }
+}
+
+nov24_2020 = {
+
+    'breakfast': {    
+        'butter of choice': 0.2,
+        'egg, raw': 3,        
+        'spinach, raw': 0.2, 
+        'kale, raw': 0.2,
+        'avocado, fresh': 1.8,
+        'alpro coconut milk': 5,
+        'pride coconut milk': 2.5,        
+        'coco powder': 0.02,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+        'spirulina': 0.05,
+        'kallo chicken stock': 0.5,
+    },
+    'lunch': {
+        'tesco organic chicken thigh fillet': 2.5,
+        'mayonnaise': 0.2,
+
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 1.2,
+        'bell pepper, red, raw': 0.4,
+        'olive oil': 0.2,
+    }, 
+}
+
+sep17_2020 = {
+
+    'breakfast': {    
+        'butter of choice': 0.2,
+        'egg, raw': 3,
+        
+        'spinach, raw': 0.2, 
+        'kale, raw': 0.2,
+        'alpro coconut milk': 5,
+        'pip & nut almond butter': 0.25,
+        'coco powder': 0.02,
+        'avocado, fresh': 1.8,
+    },
+    'lunch': {
+        'tesco chicken thighs and drummsticks': 2,
+        'mayonnaise': 0.2,
+
+        'butter of choice': 0.1,
+        'coconut fat': 0.15,
+        'mushroom, stewed (without addition of fat and salt)': 1.5,
+        'spinach, steamed (without addition of salt)': 0.6,
+        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 1.2,
+        'olive oil': 0.2,
+    },
+    
+    'snack': {
+        'pip & nut almond butter': 0.4,
+        'coco powder': 0.02,
+        'almond': 0.2,
+        'tesco coconut cream': 0.4,
+    },
+    
+#     'supper': {
+#         'tesco chicken thighs and drummsticks': 2,
+#         'mayonnaise': 0.1
+        
+#     },
+    
+}
+
+
 sep14_2020 = {
 
     'breakfast': {    

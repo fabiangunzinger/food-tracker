@@ -2,6 +2,29 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+my_foods = {
+    'almond butter': ['pip & nut almond butter', 'added', 54, 7.5, 4.6, np.nan , 27],
+    'macadamias': ['macadamia nuts', 'added', 75.3, 6.2, 3.8, 6.3, 9.0],
+    'chicory coffee': ['chicory coffee', 'added', 0.5, 73.2, 28.2, 15.3, 3.5],
+    'spirulina': ['spirulina', 'added', 8, 24, 3.1, 3.6, 57],
+    'cheddar': ['cheddar', 'added', 34.9, 0.1, 0.1, 0, 25.4],
+    'kallo chicken stock': ['kallo chicken stock cube (1 cube)', 'added', 2.5, 3, 0.5, np.nan, 0.5],
+    'heck chicken sausages': ['heck chicken sausages', 'added', 3.9, 1.6, 0.6, np.nan, 21.5],
+    'tesco bacon': ['tesco bacon', 'added', 15.9, 1, 0.2, 0.7, 19], 
+    'marigold veg bouillon': ['marigold veg bouillon', 'added', 8.5, 30.1, 10.5, np.nan, 10.1],
+    'tesco wild salmon': ['tesco wild salmon', 'added', 2.7, 1.1, 0, 0, 20],
+    'beef mince (tesco finest)': ['beef mince (tesco finest)', 'added', 14.5, 0, 0, 0, 19.7],
+    'pride coconut milk': ['pride coconut milk', 'added', 15, 1.6, 1.6, np.nan, 1],
+    'alpro coconut milk': ['alpro coconut milk', 'added', 1.2, 0, 0, 0.1, 0.1],
+    'tesco coconut cream': ['tesco coconut cream', 'added', 20, 1.5, 1.5, 1.5, 1.3],
+    'tesco chicken thighs and drummsticks': ['tesco chicken thighs and drummsticks', 'added', 14, 0, 0, 0, 17],
+    'tesco chia seeds': ['tesco chia seeds', 'added', 27.7, 2.4, 0.6, 33.8, 23.9],
+    'tesco milled flax, pumpkin, chia seed mix': ['tesco milled flax, pumpkin, chia seed mix', 'added', 44.8, 6.4, 2.8, 16.4, 26.4],
+    'tesco organic chicken thigh fillet': ['tesco organic chicken thigh fillet', 'added', 9.8, 0, 0, 0, 18.3],
+    'myprotein whey isolate': ['myprotein whey isolate', 'added', 0, 0, 0, 0, 90],
+    'myprotein eggwhite powder': ['myprotein eggwhite powder', 'added', 0.3, 5.3, 0, 0, 78]
+}
+
 
 def read_database():
     
@@ -18,7 +41,7 @@ def read_database():
     columns = {
         'Name': 'ingredient',
         'Category': 'category',
-        # 'Matrix unit': 'units',
+#         'Matrix unit': 'units',
         'Fat, total (g)': 'fat',
         'Carbohydrates, available (g)': 'carbs',
         'Protein (g)': 'protein',
@@ -27,14 +50,16 @@ def read_database():
     }
 
     path = './data/Swiss-food-composition-database-V6.1.xlsx'
-
     foods = (
         pd.read_excel(path, skiprows=2, usecols=columns)
         .rename(columns=columns)
         .pipe(str_to_numeric)
         .pipe(str_to_lower)
     )
-
+    
+    cols = foods.columns
+    new_foods_df = pd.DataFrame(my_foods.values(), columns=cols)
+    foods = foods.append(new_foods_df, ignore_index=True)
     return foods
 
 
