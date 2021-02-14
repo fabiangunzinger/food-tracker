@@ -1,5 +1,112 @@
-jan17_2021 = {
+feb13_2021 = {
+    # go back into normal keto diet while maintaining leangains calories
+    # kcal goal: 1700
+    # switch to organic (small) avocados and weigh to update weights below
+    
+    'Breakfast': {    
+        'butter of choice': 0.1,
+        'egg, raw': 2.5,      
+        'spinach, raw': 0.3, 
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.9,
+        'alpro coconut milk': 5,
+        'coco powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+    },
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 2.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.9,
+        'bell pepper, red, raw': 0.4,
+        'engevita yeast flakes': 0.2,
+    },
+    'Supper': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2, 
+        'iceberg lettuce, raw': 0.4,
+    },
+}
 
+
+
+feb5_2021 = {
+    # go back into normal keto diet while maintaining leangains calories
+    # kcal goal: 1700
+    
+    'Breakfast': {    
+        'butter of choice': 0.1,
+        'egg, raw': 3,      
+        'spinach, raw': 0.2, 
+        'kale, raw': 0.2,
+        'tesco organic broccoli': 0.5,
+        'avocado, fresh': 0.8,
+        'alpro coconut milk': 5,
+        'coco powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+        'spirulina': 0.05,
+    },
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 2.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.8,
+        'bell pepper, red, raw': 0.4,
+    },
+    'Supper': {    
+        'spinach, raw': 0.2, 
+        'kale, raw': 0.2,
+        'tesco organic broccoli': 1,
+        'alpro coconut milk': 5,
+        'myprotein eggwhite powder': 0.3,
+        'coco powder': 0.05,
+    },
+}
+
+
+jan22_2021 = {
+    # given below, try to reduce protein and increase fat to get 
+    # back into ketosis
+    'breakfast': {    
+        'butter of choice': 0.1,
+        'egg, raw': 3,        
+        'spinach, raw': 0.2, 
+        'kale, raw': 0.2,
+        'avocado, fresh': 0.8,
+        'alpro coconut milk': 5,
+        'myprotein eggwhite powder': 0.0,
+        'coco powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+        'spirulina': 0.05,
+    },
+    'lunch': {
+        'chicken, breast, without skin, raw (switzerland)': 2.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.8,
+        'bell pepper, red, raw': 0.4,
+        'olive oil': 0.05,
+        'mayonnaise': 0.2,
+        'berries (average), raw': 1,
+        'tesco fat free cottage cheese': 1,
+    },
+    'snack': {
+        'fish product, sardine in oil, drained': 0.9,
+    }
+}
+
+
+jan17_2021 = {
+    # worked very well in that i lost wait at a rate > 0.5kg / week 
+    # and built muscle, but I was not in ketosis (levels of 0.1 / 0.2)
+    # and felt tired and sluggish physically and -- mainly -- mentally, 
+    # couldn't focus for 8 hours.
     'breakfast': {    
         'butter of choice': 0.1,
         'egg, raw': 1.8,        

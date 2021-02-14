@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 my_foods = {
+    # fat, carbs, sugar, fiber, protein
     'almond butter': ['pip & nut almond butter', 'added', 54, 7.5, 4.6, np.nan , 27],
     'macadamias': ['macadamia nuts', 'added', 75.3, 6.2, 3.8, 6.3, 9.0],
     'chicory coffee': ['chicory coffee', 'added', 0.5, 73.2, 28.2, 15.3, 3.5],
@@ -21,8 +22,11 @@ my_foods = {
     'tesco chia seeds': ['tesco chia seeds', 'added', 27.7, 2.4, 0.6, 33.8, 23.9],
     'tesco milled flax, pumpkin, chia seed mix': ['tesco milled flax, pumpkin, chia seed mix', 'added', 44.8, 6.4, 2.8, 16.4, 26.4],
     'tesco organic chicken thigh fillet': ['tesco organic chicken thigh fillet', 'added', 9.8, 0, 0, 0, 18.3],
+    'tesco fat free cottage cheese': ['tesco fat free cottage cheese', 'added', 0.3, 4.7, 4.7, 0, 10.1],
     'myprotein whey isolate': ['myprotein whey isolate', 'added', 0, 0, 0, 0, 90],
-    'myprotein eggwhite powder': ['myprotein eggwhite powder', 'added', 0.3, 5.3, 0, 0, 78]
+    'myprotein eggwhite powder': ['myprotein eggwhite powder', 'added', 0.3, 5.3, 0, 0, 78],
+    'tesco organic broccoli': ['tesco organic broccoli', 'added', 0.7, 3.3, 1.8, 4, 4.4],
+    'engevita yeast flakes': ['engevita yeast flakes', 'added', 4, 36.9, 12.4, 22, 51],
 }
 
 
