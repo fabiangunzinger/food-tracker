@@ -1,3 +1,48 @@
+mar19_2021 = {
+    # kcal goal: 1650, but with meat only
+
+    'Meal 1': {
+        'tesco organic chicken thigh fillet': 4,
+    },
+    'Meal 2': {    
+        'egg, raw': 4,
+    },
+    'Meal 3': {
+        'fish product, sardine in oil, drained': 1.8,
+        'mushroom (average), raw': 0.1,
+    },
+}
+
+feb28_2021 = {
+    # kcal goal: 1650    
+    'Breakfast': {    
+        'butter of choice': 0.1,
+        'egg, raw': 3,      
+        'spinach, raw': 0.3, 
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.45,
+        'alpro coconut milk': 5,
+        'coco powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+    },
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 3,
+#         'beef, entrecôte, steak, raw (usa)': 2.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.45,
+        'bell pepper, red, raw': 0.4,
+        'engevita yeast flakes': 0.2,
+    },
+    'Supper': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2, 
+        'iceberg lettuce, raw': 0.4,
+    },
+}
+
 feb13_2021 = {
     # go back into normal keto diet while maintaining leangains calories
     # kcal goal: 1700
