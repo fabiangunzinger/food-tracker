@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 my_foods = {
     # fat, carbs, sugar, fiber, protein
     'almond butter': ['pip & nut almond butter', 'added', 54, 7.5, 4.6, np.nan , 27],
+    'peanut butter': ['pip & nut peanut butter', 'added', 48, 11.9, 5.7, 8.8 , 26.4],
     'macadamias': ['macadamia nuts', 'added', 75.3, 6.2, 3.8, 6.3, 9.0],
     'chicory coffee': ['chicory coffee', 'added', 0.5, 73.2, 28.2, 15.3, 3.5],
     'spirulina': ['spirulina', 'added', 8, 24, 3.1, 3.6, 57],
@@ -27,6 +28,7 @@ my_foods = {
     'myprotein eggwhite powder': ['myprotein eggwhite powder', 'added', 0.3, 5.3, 0, 0, 78],
     'tesco organic broccoli': ['tesco organic broccoli', 'added', 0.7, 3.3, 1.8, 4, 4.4],
     'engevita yeast flakes': ['engevita yeast flakes', 'added', 4, 36.9, 12.4, 22, 51],
+    'tesco finest jumbo cooked king prawns': ['tesco finest jumbo cooked king prawns', 'added', 1.5, 0.1, 0.1, 0.5, 19.2]
 }
 
 
@@ -175,3 +177,40 @@ def nuts_plots(meal_data, figsize=(14, 7)):
         ax[idx].legend(labels, loc='lower center',
                        framealpha=0, borderaxespad=-7)
         ax[0].set_ylabel('Grams', fontsize=axsize)
+
+        
+        
+        
+def single_meal_plots(meal_data, figsize=(14, 7)):
+    """Plot macronutrient info for individual meals."""
+    
+    def nuts_autopct(values):
+        def pct_labels(pct):
+            grams = pct * total / 100
+            return  f'{grams:.0f}g\n({pct:.0f}%)'
+        return pct_labels
+    
+    print(meal_data.keys())
+    
+    meals = len(meal_data)
+    cols = 4
+    rows = int(np.ceil(meals / cols))
+    
+
+    fig, ax = plt.subplots(rows, cols, figsize=figsize)
+
+#     axsize = 20
+
+#     df = meal_data['Total']['grams']
+
+#     for idx, nut in enumerate(df.columns):
+#         total = df[nut].sum()
+#         data = df[nut].nlargest(5) / total
+#         ax[idx].pie(data, autopct=nuts_autopct(data),
+#                     wedgeprops=dict(width=0.7),
+#                     textprops=dict(color='white'))
+#         ax[idx].set_title(nut.title(), fontsize=axsize)
+#         labels = [i[:25] for i in data.index]
+#         ax[idx].legend(labels, loc='lower center',
+#                        framealpha=0, borderaxespad=-7)
+#         ax[0].set_ylabel('Grams', fontsize=axsize)

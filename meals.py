@@ -1,3 +1,210 @@
+apr23_2021 = {
+#     kcal goal: 2500   
+
+    'Breakfast': {
+        'butter of choice': 0.2,
+        'egg, raw': 3,
+        'spinach, raw': 0.8,
+        'avocado, fresh': 1.5,
+
+        'pip & nut peanut butter': 0.2,
+        'alpro coconut milk': 5,
+        'cocoa powder': 0.1,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+    },
+
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 3.5,
+#         'beef, entrecôte, steak, raw (usa)': 2,
+        'olive oil': 0.2,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 1.5,
+        'bell pepper, red, raw': 0.4,
+        'engevita yeast flakes': 0.1,
+    },
+    
+    'Supper': {
+        'fish product, sardine in oil, drained': 0.9,
+        'mushroom (average), raw': 0.5,
+        'kkale, stewed (without addition of salt and fat)': 0.5,         'butter of choice': 0.2,
+    },    
+}
+
+
+
+apr19_2021 = {
+#     kcal goal: 2500   
+
+    'Breakfast': {
+        'butter of choice': 0.15,
+        'egg, raw': 3.5,
+        'spinach, raw': 0.4,
+        'kale, raw': 0.4,
+        'avocado, fresh': 0.45,
+        'alpro coconut milk': 5,
+        'cocoa powder': 0.1,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+    },
+
+    'Lunch': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2,
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+        
+        'tesco organic chicken thigh fillet': 4,
+#         'beef, entrecôte, steak, raw (usa)': 2,
+#         'olive oil': 0.2,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.9,
+        'bell pepper, red, raw': 0.4,
+        'engevita yeast flakes': 0.1,
+    },
+    
+    'Supper': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2,
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+        
+        'spinach, raw': 0.4,
+        'kale, raw': 0.4,
+        'avocado, fresh': 0.45,
+        'alpro coconut milk': 5,
+        'cocoa powder': 0.1,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+    },    
+}
+
+
+apr15_2021 = {
+#     kcal goal: 2500   
+
+    'Breakfast': {
+        'butter of choice': 0.2,
+        'egg, raw': 3.5,
+        'spinach, raw': 0.3,
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.45,
+        'alpro coconut milk': 5,
+        'cocoa powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+    },
+
+    'Lunch': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2,
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+        
+        'tesco organic chicken thigh fillet': 4,
+#         'beef, entrecôte, steak, raw (usa)': 2,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.9,
+        'bell pepper, red, raw': 0.4,
+        'engevita yeast flakes': 0.1,
+    },
+    
+    'Supper': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2,
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+        
+        'spinach, raw': 0.3,
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.45,
+        'alpro coconut milk': 5,
+        'cocoa powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+    },    
+}
+
+apr09_2021 = {
+#     kcal goal: 1750   
+
+    'Lunch': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2, 
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+        
+        'tesco organic chicken thigh fillet': 3,
+#         'beef, entrecôte, steak, raw (usa)': 2,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.45,
+        'bell pepper, red, raw': 0.4,
+        'engevita yeast flakes': 0.1,
+    },
+    
+    'Supper': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2, 
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+        
+        'butter of choice': 0.1,
+        'egg, raw': 3,      
+        'spinach, raw': 0.3, 
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.45,
+        'alpro coconut milk': 5,
+        'coco powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.075,
+        'tesco chia seeds': 0.075, 
+    },    
+}
+
+mar31_2021 = {
+    # kcal goal: 1800   
+    'Breakfast': {    
+        'butter of choice': 0.1,
+        'egg, raw': 3,      
+        'spinach, raw': 0.3, 
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.45,
+        'alpro coconut milk': 5,
+        'coco powder': 0.05,
+        'tesco milled flax, pumpkin, chia seed mix': 0.15,
+        'tesco chia seeds': 0.15, 
+    },
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 3.5,
+#         'beef, entrecôte, steak, raw (usa)': 2.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,        
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 0.45,
+        'bell pepper, red, raw': 0.4,
+        'engevita yeast flakes': 0.2,
+    },
+    'Supper': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2, 
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+    },
+}
+
 mar19_2021 = {
     # kcal goal: 1650, but with meat only
 
