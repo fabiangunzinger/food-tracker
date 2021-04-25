@@ -1,3 +1,43 @@
+staples = {
+# nutrients and calories for staple meals
+    
+    '360g of eggs,\n20g of butter': {
+        'egg, raw': 3.6,
+        'butter of choice': 0.2,
+    },
+    
+     '400g of chicken,\n10g of yeast': {
+        'tesco organic chicken thigh fillet': 4,
+        'engevita yeast flakes': 0.1,
+    },   
+    
+    '200g of steak,\n5ml of oil,\n10g of butter': {
+        'beef, entrecôte, steak, raw (usa)': 2,
+        'olive oil': 0.1,
+        'butter of choice': 0.1,
+    },    
+    
+    'Veg stew': {
+        'avocado, fresh': 1.5,
+        'eggplant, raw': 1,
+        'tesco organic broccoli': 1,
+        'bell pepper, red, raw': 0.5,
+        'mushroom (average), raw': 0.5,
+        'kale, stewed (without addition of salt and fat)': 0.4,    
+        'olive oil': 0.1,
+        'butter of choice': 0.2,
+    },
+    
+    'Smoothie': {
+        'pip & nut peanut butter': 0.2,
+        'alpro coconut milk': 5,
+        'cocoa powder': 0.1,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+    }
+}
+
+
 apr23_2021 = {
 #     kcal goal: 2500   
 
@@ -29,7 +69,10 @@ apr23_2021 = {
     'Supper': {
         'fish product, sardine in oil, drained': 0.9,
         'mushroom (average), raw': 0.5,
-        'kkale, stewed (without addition of salt and fat)': 0.5,         'butter of choice': 0.2,
+        'kale, stewed (without addition of salt and fat)': 0.5,
+        'butter of choice': 0.2,
+        'spinach, raw': 0.4,
+        'kale, raw': 0.4,
     },    
 }
 

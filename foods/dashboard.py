@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 my_foods = {
     # fat, carbs, sugar, fiber, protein
     'almond butter': ['pip & nut almond butter', 'added', 54, 7.5, 4.6, np.nan , 27],
+    'peanut butter': ['pip & nut peanut butter', 'added', 48.4, 11.9, 5.7, 8.8, 26.4],
     'macadamias': ['macadamia nuts', 'added', 75.3, 6.2, 3.8, 6.3, 9.0],
     'chicory coffee': ['chicory coffee', 'added', 0.5, 73.2, 28.2, 15.3, 3.5],
     'spirulina': ['spirulina', 'added', 8, 24, 3.1, 3.6, 57],
@@ -175,3 +176,41 @@ def nuts_plots(meal_data, figsize=(14, 7)):
         ax[idx].legend(labels, loc='lower center',
                        framealpha=0, borderaxespad=-7)
         ax[0].set_ylabel('Grams', fontsize=axsize)
+
+        
+def staple_plots(meal_data, figsize=(14, 7)):
+
+    def meals_autopct(values):
+        def pct_labels(pct):
+            if measure == 'cals':
+                out =  f'{pct:.0f}%' if pct > 3 else ''
+            else:
+                grams = pct * total / 100
+                out = f'{grams:.0f}g' if grams > 3 else ''
+            return out
+        return pct_labels
+
+    del meal_data['Total']
+    num_meals = len(meal_data)
+    axsize = 14
+
+    fig, ax = plt.subplots(2, num_meals, figsize=figsize)
+
+    ax[0, 0].set_ylabel('Grams', fontsize=axsize)
+    ax[1, 0].set_ylabel('Calories', fontsize=axsize)
+
+    for col, meal in enumerate(meal_data):
+        for row, measure in enumerate(['grams', 'cals']):
+
+            data = meal_data[meal][measure].sum()
+            total = data.sum()
+
+            ax[row, col].pie(data, autopct=meals_autopct(data),
+                             wedgeprops=dict(width=0.7),
+                             textprops=dict(color='white', fontsize=15))
+            ax[row, col].set_xlabel(f'Total: {total:.0f} {measure}')
+            ax[0, col].set_title(meal, fontsize=axsize)
+
+    fig.legend(['Fat', 'Protein', 'Fiber', 'Carbs'], framealpha=0, bbox_to_anchor=(1, 1),
+           bbox_transform=plt.gcf().transFigure, ncol=1, fontsize=15)
+
