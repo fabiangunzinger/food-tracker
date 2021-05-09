@@ -1,15 +1,43 @@
-staples = {
-# nutrients and calories for staple meals
+staples1 = {
+    
+    '400g of chicken': {
+        'tesco organic chicken thigh fillet': 4,
+    },   
+    
+    'Veg stew': {
+        'tesco organic broccoli': 2,
+        'bell pepper, red, raw': 1,
+        'mushroom (average), raw': 0.5,
+        'kale, stewed (without addition of salt and fat)': 0.5,    
+        'spinach, raw': 0.5,
+        'olive oil': 0.2,
+    },
     
     '360g of eggs,\n20g of butter': {
         'egg, raw': 3.6,
         'butter of choice': 0.2,
     },
     
-     '400g of chicken,\n10g of yeast': {
-        'tesco organic chicken thigh fillet': 4,
-        'engevita yeast flakes': 0.1,
-    },   
+    'Smoothie': {
+        'spinach, raw': 0.4,
+        'kale, raw': 0.4,
+        'avocado, fresh': 0.45,
+        'alpro coconut milk': 5,
+        'cocoa powder': 0.1,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+    },
+}
+
+staples2 = {
+    
+    'One-tin sardine salad': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2,
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+    },
     
     '200g of steak,\n5ml of oil,\n10g of butter': {
         'beef, entrecôte, steak, raw (usa)': 2,
@@ -17,25 +45,56 @@ staples = {
         'butter of choice': 0.1,
     },    
     
-    'Veg stew': {
+    'Avocado, 150g': {
         'avocado, fresh': 1.5,
-        'eggplant, raw': 1,
-        'tesco organic broccoli': 1,
-        'bell pepper, red, raw': 0.5,
-        'mushroom (average), raw': 0.5,
-        'kale, stewed (without addition of salt and fat)': 0.4,    
-        'olive oil': 0.1,
-        'butter of choice': 0.2,
+    },   
+    
+    'Sweet potato, 200g': {
+        'sweet potato, raw': 2,
     },
     
-    'Smoothie': {
-        'pip & nut peanut butter': 0.2,
+    'Rice, 100g': {
+        'tesco easy cook brown rice': 1,
+    }
+}
+
+may9_2021 = {
+#    introducing moderate amounts of carbs, kcal goal around 2700.
+
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 3.5,
+        'tesco easy cook brown rice': 1,
+        'olive oil': 0.3,
+        'avocado, fresh': 1.5,
+        'tesco organic broccoli': 2,
+        'bell pepper, red, raw': 1,
+        'mushroom (average), raw': 0.5,
+        'kale, stewed (without addition of salt and fat)': 0.5,    
+        'spinach, raw': 0.5,
+        'olive oil': 0.2,
+    },
+    
+    'Supper': {
+        'butter of choice': 0.2,
+        'egg, raw': 3.5,
+        'spinach, raw': 0.4,
+        'kale, raw': 0.4,
+        'avocado, fresh': 0.45,
         'alpro coconut milk': 5,
         'cocoa powder': 0.1,
         'tesco milled flax, pumpkin, chia seed mix': 0.1,
         'tesco chia seeds': 0.1,
-    }
+    },
+    
+    'Snack': {
+        'fish product, sardine in oil, drained': 0.9,
+        'spinach, raw': 0.2,
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.1
+    },    
 }
+
 
 
 apr23_2021 = {

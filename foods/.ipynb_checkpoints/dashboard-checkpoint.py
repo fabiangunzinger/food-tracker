@@ -28,6 +28,7 @@ my_foods = {
     'myprotein eggwhite powder': ['myprotein eggwhite powder', 'added', 0.3, 5.3, 0, 0, 78],
     'tesco organic broccoli': ['tesco organic broccoli', 'added', 0.7, 3.3, 1.8, 4, 4.4],
     'engevita yeast flakes': ['engevita yeast flakes', 'added', 4, 36.9, 12.4, 22, 51],
+    'tesco easy cook brown rice': ['tesco easy cook brown rice', 'added', 1.6, 36.9, 0.2, 8.7, 4.3]
 }
 
 
