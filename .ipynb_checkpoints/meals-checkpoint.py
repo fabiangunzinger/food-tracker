@@ -58,32 +58,30 @@ staples2 = {
     }
 }
 
-may9_2021 = {
+may13_2021 = {
 #    introducing moderate amounts of carbs, kcal goal around 2700.
 
-    'Lunch': {
-        'tesco organic chicken thigh fillet': 3.5,
-        'tesco easy cook brown rice': 1,
-        'olive oil': 0.3,
-        'avocado, fresh': 1.5,
-        'tesco organic broccoli': 2,
-        'bell pepper, red, raw': 1,
-        'mushroom (average), raw': 0.5,
-        'kale, stewed (without addition of salt and fat)': 0.5,    
-        'spinach, raw': 0.5,
-        'olive oil': 0.2,
-    },
-    
-    'Supper': {
+    'Breakfast': {
         'butter of choice': 0.2,
-        'egg, raw': 3.5,
-        'spinach, raw': 0.4,
-        'kale, raw': 0.4,
-        'avocado, fresh': 0.45,
-        'alpro coconut milk': 5,
+        'egg, raw': 4,
+        'spinach, raw': 0.3,
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.50,
+        'alpro coconut milk': 3,
         'cocoa powder': 0.1,
         'tesco milled flax, pumpkin, chia seed mix': 0.1,
         'tesco chia seeds': 0.1,
+    },
+
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 4,
+        'tesco easy cook brown rice': 1,
+        'avocado, fresh': 1.75,
+        'tesco organic broccoli': 3,
+        'bell pepper, red, raw': 1,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.5,
+        'olive oil': 0.2,
     },
     
     'Snack': {
