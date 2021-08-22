@@ -1,3 +1,299 @@
+aug22_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2050
+    # %protein/carbs/fat: 40, 40, 20
+    # cheat day - pre-cheat meal meals
+    
+    'Breakfast': {
+        'oat flakes': 0.6,
+        'alpro coconut milk': 3,
+        'bulk whey isolate chocolate': 0.3,
+        'arla skyr natural': 1.5,
+        # creatine and supplements                            
+    },
+    
+    'Lunch': {
+        'tesco basmati rice': 1,
+        'chicken, breast (cut), raw': 2.5,
+#         'egg, raw': 0.6,
+#         'tesco sweetcorn canned': 1.3,
+        'tesco organic broccoli': 1.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+#         'olive oil': 0.1,
+#         'olive oil': 0.20,
+        
+        'kikkoman less salt soy sauce': 0.2,
+        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
+    },
+    
+#     'Supper': {
+#         'bulk whey isolate chocolate': 0.6,
+#         'alpro coconut milk': 3,
+
+#         'oat flakes': 0.6,
+#         'arla skyr natural': 1.5,
+#         'blueberry, raw': 0.5,
+#     },
+    
+}
+
+
+aug20_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2050
+    # %protein/carbs/fat: 40, 40, 20
+    # holiday diet - limited access to groceries, so keep things simple
+    
+    'Breakfast': {
+        'oat flakes': 0.4,
+        'banana, raw': 1.5,
+        'alpro coconut milk': 7,
+        'bulk whey isolate chocolate': 0.6,
+        # creatine and supplements                            
+    },
+    
+    'Lunch': {
+        'tesco basmati rice': 2,
+        'chicken, breast (cut), raw': 2.5,
+#         'egg, raw': 0.6,
+#         'tesco sweetcorn canned': 1.3,
+        'tesco organic broccoli': 1.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+#         'olive oil': 0.1,
+        'olive oil': 0.20,
+        
+        'kikkoman less salt soy sauce': 0.2,
+        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
+    },
+    
+    'Supper': {
+        'bulk whey isolate chocolate': 0.6,
+        'alpro coconut milk': 3,
+
+        'oat flakes': 0.6,
+        'arla skyr natural': 1.5,
+        'blueberry, raw': 0.5,
+    },
+    
+}
+
+aug18_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2050
+    # %protein/carbs/fat: 40, 40, 20
+    
+    'Pre-workout': {
+        'oat flakes': 0.4,
+        'bulk whey isolate chocolate': 0.3,
+        'banana, raw': 0.75,
+        'alpro coconut milk': 3,
+#         'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        # creatine and supplements
+    },
+    
+    'Post-workout': {
+        'bulk whey isolate chocolate': 0.3,
+        'alpro coconut milk': 4,
+        'banana, raw': 0.75,
+    },
+    
+    'Lunch': {
+#         'tesco basmati rice': 2,
+        'tesco organic sweet potatoes': 3,
+        'chicken, breast (cut), raw': 2.5,
+        'egg, raw': 0.6,
+        'tesco sweetcorn canned': 1.3,
+        'tesco organic broccoli': 1.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+#         'olive oil': 0.1,
+        'olive oil': 0.05,
+        
+        'kikkoman less salt soy sauce': 0.2,
+        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
+        
+        # supplements
+#         'lindt excellence 85% cocoa': 0.2,
+    },
+    
+    'Supper': {
+        'myprotein eggwhite powder': 0.6,
+        'alpro coconut milk': 3,
+        'tesco perfectly imperfect frozen mixed berry': 1,
+        'spinach, raw': 0.3,
+        'kale, raw': 0.3,
+        
+        'oat flakes': 0.6,
+        'arla skyr natural': 1.5,
+        'blueberry, raw': 0.5,
+#         'cranberry, fresh': 0.05,
+    },
+    
+}
+
+aug16_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2150
+    # %protein/carbs/fat: 40, 40, 20
+    
+    'Pre-workout': {
+        'oat flakes': 0.4,
+        'bulk whey isolate chocolate': 0.3,
+        'banana, raw': 0.75,
+        'alpro coconut milk': 3,
+#         'tesco milled flax, pumpkin, chia seed mix': 0.1,
+    },
+    
+    'Post-workout': {
+        'bulk whey isolate chocolate': 0.3,
+        'alpro coconut milk': 4,
+        'banana, raw': 0.75,
+    },
+    
+    'Lunch': {
+        'tesco basmati rice': 2,
+        'chicken, breast (cut), raw': 2.5,
+        'egg, raw': 0.6,
+        'tesco sweetcorn canned': 1.3,
+        'tesco organic broccoli': 1.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+#         'olive oil': 0.1,
+        'olive oil': 0.05,
+        
+        'kikkoman less salt soy sauce': 0.2,
+        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
+        
+        # supplements
+#         'lindt excellence 85% cocoa': 0.2,
+    },
+    
+    'Supper': {
+        'myprotein eggwhite powder': 0.6,
+        'alpro coconut milk': 3,
+        'tesco perfectly imperfect frozen mixed berry': 1,
+        'spinach, raw': 0.3,
+        'kale, raw': 0.3,
+        
+        'oat flakes': 0.6,
+        'arla skyr natural': 1.5,
+        'blueberry, raw': 0.5,
+#         'cranberry, fresh': 0.05,
+    },
+    
+}
+
+
+aug10_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2300
+    # %protein/carbs/fat: 40, 40, 20
+    
+    'Pre-workout': {
+        'oat flakes': 0.4,
+        'bulk whey isolate chocolate': 0.3,
+        'banana, raw': 0.75,
+        'alpro coconut milk': 3,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+    },
+    
+    'Post-workout': {
+        'bulk whey isolate chocolate': 0.3,
+        'alpro coconut milk': 4,
+        'banana, raw': 0.75,
+    },
+    
+    'Lunch': {
+        'tesco basmati rice': 2,
+        'chicken, breast (cut), raw': 2.5,
+        'egg, raw': 0.6,
+        'tesco sweetcorn canned': 1.3,
+        'tesco organic broccoli': 1.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+        'olive oil': 0.1,
+        'kikkoman less salt soy sauce': 0.2,
+        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
+        
+        # supplements
+        'lindt excellence 85% cocoa': 0.1,
+    },
+    
+    'Supper': {
+        'myprotein eggwhite powder': 0.6,
+        'alpro coconut milk': 3,
+        'tesco perfectly imperfect frozen mixed berry': 1,
+        'spinach, raw': 0.3,
+        'kale, raw': 0.3,
+        
+        'oat flakes': 0.6,
+        'arla skyr natural': 1.5,
+        'blueberry, raw': 0.5,
+        'cranberry, fresh': 0.05,
+    },
+    
+}
+
+
+aug9_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2200
+    # %protein/carbs/fat: 40, 40, 20
+    
+    'Pre-workout': {
+        'oat flakes': 0.4,
+        'myprotein eggwhite powder': 0.3,
+        'banana, raw': 0.75,
+        'alpro coconut milk': 3,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+    },
+    
+    'Post-workout': {
+        'myprotein eggwhite powder': 0.6,
+        'alpro coconut milk': 3,
+        'banana, raw': 0.75,
+    },
+    
+    'Lunch': {
+        'tesco basmati rice': 2.5,
+        'tesco basa fillets': 2,
+        'egg, raw': 0.6,
+        'tesco sweetcorn canned': 1.3,
+        'olive oil': 0.05,
+        'mushroom (average), raw': 0.5,
+        'kikkoman less salt soy sauce': 0.2,
+    },
+    
+    'Supper': {
+        'sweet potato, raw': 2,
+        'chicken, breast (cut), raw': 2,
+        'tesco organic broccoli': 1.5,
+        
+        'iceberg lettuce, raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+        'tesco organic avocado': 0.4,
+        
+        'tesco 0% greek style yogurt': 1,
+        'lindt excellence 85% cocoa': 0.1,
+    },
+    
+}
+
+
 staples1 = {
     
     '400g of chicken': {
@@ -57,6 +353,89 @@ staples2 = {
         'tesco easy cook brown rice': 1,
     }
 }
+
+jun24_2021 = {
+    # relax a bit and add some carbs
+
+
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 3,
+        'engevita yeast flakes': 0.05,
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 2.25,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.5,
+        'olive oil': 0.2,
+    },
+
+    
+    'Breakfast': {
+        'butter': 0.2,
+        'egg, raw': 1.2,
+        'pride coconut milk': 4,
+        'spinach, raw': 0.3,
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.75,
+        'cocoa powder': 0.1,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+        'macadamia nuts': 0.3,
+    },
+
+
+    'Snack': {
+        'fish product, sardine in oil, drained': 0.9,
+        'olive oil': 0.2,
+        'spinach, raw': 0.2,
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+    },    
+}
+
+
+
+
+may21_2021 = {
+    # try strict keto again to see whether I feel more energetic
+    # around 2700, smaller portions
+
+    'Breakfast': {
+        'butter': 0.2,
+        'egg, raw': 1.2,
+        'pride coconut milk': 4,
+        'spinach, raw': 0.3,
+        'kale, raw': 0.3,
+        'avocado, fresh': 0.75,
+        'cocoa powder': 0.1,
+        'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        'tesco chia seeds': 0.1,
+        'macadamia nuts': 0.3,
+    },
+
+    'Lunch': {
+        'tesco organic chicken thigh fillet': 3,
+        'engevita yeast flakes': 0.05,
+        'iceberg lettuce, raw': 0.4,
+        'avocado, fresh': 2.25,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.5,
+        'olive oil': 0.2,
+    },
+    
+    'Snack': {
+        'fish product, sardine in oil, drained': 0.9,
+        'olive oil': 0.2,
+        'spinach, raw': 0.2,
+        'iceberg lettuce, raw': 0.4,
+        'mushroom (average), raw': 0.5,
+        'engevita yeast flakes': 0.05,
+    },    
+}
+
+
+
+
 
 may13_2021 = {
 #    introducing moderate amounts of carbs, kcal goal around 2700.
@@ -647,7 +1026,6 @@ sep14_2020 = {
     'supper': {
         'tesco chicken thighs and drummsticks': 1.5,
         'mayonnaise': 0.3
-        
     },
     
 }

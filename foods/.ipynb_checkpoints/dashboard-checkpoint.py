@@ -26,9 +26,23 @@ my_foods = {
     'tesco fat free cottage cheese': ['tesco fat free cottage cheese', 'added', 0.3, 4.7, 4.7, 0, 10.1],
     'myprotein whey isolate': ['myprotein whey isolate', 'added', 0, 0, 0, 0, 90],
     'myprotein eggwhite powder': ['myprotein eggwhite powder', 'added', 0.3, 5.3, 0, 0, 78],
+    'bulk whey isolate chocolate': ['bulk whey isolate chocolate', 'added', 0.1, 5, 1.4, 3.4, 81],
     'tesco organic broccoli': ['tesco organic broccoli', 'added', 0.7, 3.3, 1.8, 4, 4.4],
     'engevita yeast flakes': ['engevita yeast flakes', 'added', 4, 36.9, 12.4, 22, 51],
-    'tesco easy cook brown rice': ['tesco easy cook brown rice', 'added', 1.6, 36.9, 0.2, 8.7, 4.3]
+    'tesco easy cook brown rice': ['tesco easy cook brown rice', 'added', 1.6, 36.9, 0.2, 8.7, 4.3],
+    'tesco basmati rice': ['tesco basmati rice', 'added', 1, 32.3, 0.1, 0.5, 3.4],
+    'tesco sweetcorn canned': ['tesco sweetcorn canned', 'added', 1.9, 11.6, 6.8, 2.9, 2.8],
+    'tesco chickpeas': ['tesco chickpeas', 'added', 2.2, 13.6, 0.4, 6.9, 6.7],
+    'alpro almond milk': ['alpro almond milk', 'added', 1.1, 2.4, 2.4, 0.4, 0.4],
+    'kikkoman less salt soy sauce': ['kikkoman less salt soy sauce', 'added', 0, 6.9, 3.9, 0, 9.7],
+    'arla lactofree semi skimmed milk': ['arla lactofree semi skimmed milk', 'added', 1.5, 2.6, 2.6, 0, 3.5],
+    'arla skyr natural': ['arla skyr natural', 'added', 0.4, 4, 4, 0, 10.6],
+    'two chicks free range liquid egg white': ['two chicks free range liquid egg white', 'added', 0, 0.8, 0.7, 0, 10.9],
+    'tesco basa fillets': ['tesco basa fillets', 'added', 2.6, 0.1, 0.1, 0.5, 22.5],
+    'lindt excellence 85% cocoa': ['lindt excellence 85% cocoa', 'added', 46, 19, 11, 0, 12.5],
+    'tesco organic avocado': ['tesco organic avocado', 'added', 19, 1.9, 0.5, 3.4, 1.9],
+    'tesco perfectly imperfect frozen mixed berry': ['tesco perfectly imperfect frozen mixed berry', 'added', 0.8, 5.7, 5.4, 3, 1],
+    'tesco organic sweet potatoes': ['tesco organic sweet potatoes', 'added', 0.3, 21.3, 11.6, 2.3, 1.1],
 }
 
 
