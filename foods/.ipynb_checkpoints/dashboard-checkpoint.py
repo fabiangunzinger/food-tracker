@@ -43,6 +43,10 @@ my_foods = {
     'tesco organic avocado': ['tesco organic avocado', 'added', 19, 1.9, 0.5, 3.4, 1.9],
     'tesco perfectly imperfect frozen mixed berry': ['tesco perfectly imperfect frozen mixed berry', 'added', 0.8, 5.7, 5.4, 3, 1],
     'tesco organic sweet potatoes': ['tesco organic sweet potatoes', 'added', 0.3, 21.3, 11.6, 2.3, 1.1],
+    'tesco organic white potatoes': ['tesco organic white potatoes', 'added', 0.1, 17.5, 0.8, 1, 1.8],
+    'tesco garden peas in water': ['tesco garden peas in water', 'added', 1.5, 11.3, 2.3, 4.7, 6.9],
+    'amoy dark soy sauce': ['amoy dark soy sauce', 'added', 0.1, 28.6, 24.8, 0, 1.3],
+    'yeo valley organic super thick 0% natural yogurt': ['yeo valley organic super thick 0% natural yogurt', 'added', 0.4, 3.5, 3.5, 0, 10],
 }
 
 

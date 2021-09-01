@@ -1,3 +1,155 @@
+sep1_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2050
+    # %protein/carbs/fat: 40, 40, 20
+    
+    'Pre-workout': {
+        'oat flakes': 0.4,
+        'bulk whey isolate chocolate': 0.3,
+        'banana, raw': 0.75,
+        'alpro coconut milk': 3,
+        # creatine and supplements
+    },
+    
+    'Post-workout': {
+        'bulk whey isolate chocolate': 0.3,
+        'alpro coconut milk': 4,
+        'banana, raw': 0.75,
+    },
+    
+    'Lunch': {
+#         'tesco basmati rice': 1.5,
+        'tesco organic white potatoes': 2.5,
+#         'tesco organic sweet potatoes': 2.5,
+        'chicken, breast (cut), raw': 3.5,
+        'egg, raw': 0.6,
+        'tesco garden peas in water': .85,
+        'tesco organic broccoli': 1,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+        'olive oil': 0.1,
+        'kikkoman less salt soy sauce': 0.2,
+        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
+    },
+    
+    'Supper': {
+        'myprotein eggwhite powder': 0.2,
+        'alpro coconut milk': 3,
+        'tesco perfectly imperfect frozen mixed berry': 1,
+        'spinach, raw': 0.3,
+        
+        'oat flakes': 0.6,
+        'arla skyr natural': 2,
+        'blueberry, raw': 1,
+    },
+    
+}
+
+
+
+aug29_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2050
+    # %protein/carbs/fat: 40, 40, 20
+    
+    'Pre-workout': {
+        'oat flakes': 0.4,
+        'bulk whey isolate chocolate': 0.3,
+        'banana, raw': 0.75,
+        'alpro coconut milk': 3,
+        # creatine
+    },
+    
+    'Post-workout': {
+        'bulk whey isolate chocolate': 0.3,
+        'alpro coconut milk': 4,
+        'banana, raw': 0.75,
+        # supplements
+    },
+    
+    'Lunch': {
+        'tesco basmati rice': 1.5,
+#         'tesco organic white potatoes': 3,
+#         'tesco organic sweet potatoes': 2.5,
+        'chicken, breast (cut), raw': 3,
+        'egg, raw': 0.6,
+        'tesco garden peas in water': .85,
+        'tesco organic broccoli': 1,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+        'olive oil': 0.1,
+        'kikkoman less salt soy sauce': 0.2,
+        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
+    },
+    
+    'Supper': {
+        'myprotein eggwhite powder': 0.3,
+        'alpro coconut milk': 3,
+        'tesco perfectly imperfect frozen mixed berry': 1,
+        'spinach, raw': 0.3,
+        
+        'oat flakes': 0.6,
+        'yeo valley organic super thick 0% natural yogurt': 2,
+        'blueberry, raw': 1,
+    },
+    
+}
+
+
+aug20_2021 = {
+    # following matthew's diet
+    # mode: cutting
+    # kcal: 2050
+    # %protein/carbs/fat: 40, 40, 20
+    # holiday diet - limited access to groceries, so keep things simple
+    
+    'Pre-workout': {
+        'oat flakes': 0.4,
+        'bulk whey isolate chocolate': 0.3,
+        'banana, raw': 0.75,
+        'alpro coconut milk': 3,
+#         'tesco milled flax, pumpkin, chia seed mix': 0.1,
+        # creatine and supplements
+    },
+    
+    'Post-workout': {
+        'bulk whey isolate chocolate': 0.3,
+        'alpro coconut milk': 4,
+        'banana, raw': 0.75,
+    },
+    
+    'Lunch': {
+        'tesco basmati rice': 2,
+        'chicken, breast (cut), raw': 2.5,
+#         'egg, raw': 0.6,
+#         'tesco sweetcorn canned': 1.3,
+        'coop garden peas': 0.6,
+        'tesco organic broccoli': 1.5,
+        'mushroom (average), raw': 0.5,
+        'spinach, raw': 0.4,
+        'tomato, raw': 1,
+#         'olive oil': 0.1,
+        'olive oil': 0.20,
+        
+        'amoy dark soy sauce': 0.1,
+        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
+    },
+    
+    'Supper': {
+        'bulk whey isolate chocolate': 0.6,
+        'alpro coconut milk': 3,
+
+        'oat flakes': 0.6,
+        'arla skyr natural': 1.5,
+        'blueberry, raw': 0.5,
+    },
+    
+}
+
 aug22_2021 = {
     # following matthew's diet
     # mode: cutting
@@ -37,49 +189,6 @@ aug22_2021 = {
 #         'arla skyr natural': 1.5,
 #         'blueberry, raw': 0.5,
 #     },
-    
-}
-
-
-aug20_2021 = {
-    # following matthew's diet
-    # mode: cutting
-    # kcal: 2050
-    # %protein/carbs/fat: 40, 40, 20
-    # holiday diet - limited access to groceries, so keep things simple
-    
-    'Breakfast': {
-        'oat flakes': 0.4,
-        'banana, raw': 1.5,
-        'alpro coconut milk': 7,
-        'bulk whey isolate chocolate': 0.6,
-        # creatine and supplements                            
-    },
-    
-    'Lunch': {
-        'tesco basmati rice': 2,
-        'chicken, breast (cut), raw': 2.5,
-#         'egg, raw': 0.6,
-#         'tesco sweetcorn canned': 1.3,
-        'tesco organic broccoli': 1.5,
-        'mushroom (average), raw': 0.5,
-        'spinach, raw': 0.4,
-        'tomato, raw': 1,
-#         'olive oil': 0.1,
-        'olive oil': 0.20,
-        
-        'kikkoman less salt soy sauce': 0.2,
-        # 3 cloves of garlic (chop, leave for 10 mins, add last so they're raw)
-    },
-    
-    'Supper': {
-        'bulk whey isolate chocolate': 0.6,
-        'alpro coconut milk': 3,
-
-        'oat flakes': 0.6,
-        'arla skyr natural': 1.5,
-        'blueberry, raw': 0.5,
-    },
     
 }
 
