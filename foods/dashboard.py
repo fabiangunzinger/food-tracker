@@ -27,7 +27,7 @@ my_foods = {
     'myprotein whey isolate': ['myprotein whey isolate', 'added', 0, 0, 0, 0, 90],
     'myprotein eggwhite powder': ['myprotein eggwhite powder', 'added', 0.3, 5.3, 0, 0, 78],
     'bulk whey isolate chocolate': ['bulk whey isolate chocolate', 'added', 0.1, 5, 1.4, 3.4, 81],
-    'tesco organic broccoli': ['tesco organic broccoli', 'added', 0.7, 3.3, 1.8, 4, 4.4],
+    'tesco organic broccoli, raw': ['tesco organic broccoli, raw', 'added', 0.7, 3.3, 1.8, 4, 4.4],
     'engevita yeast flakes': ['engevita yeast flakes', 'added', 4, 36.9, 12.4, 22, 51],
     'tesco easy cook brown rice': ['tesco easy cook brown rice', 'added', 1.6, 36.9, 0.2, 8.7, 4.3],
     'tesco basmati rice': ['tesco basmati rice', 'added', 1, 32.3, 0.1, 0.5, 3.4],
