@@ -35,6 +35,7 @@ my_foods = {
     'tesco chickpeas': ['tesco chickpeas', 'added', 2.2, 13.6, 0.4, 6.9, 6.7],
     'alpro almond milk': ['alpro almond milk', 'added', 1.1, 2.4, 2.4, 0.4, 0.4],
     'kikkoman less salt soy sauce': ['kikkoman less salt soy sauce', 'added', 0, 6.9, 3.9, 0, 9.7],
+    'kikkoman soy sauce': ['kikkoman soy sauce', 'added', 0, 3.2, 0.6, 0, 10],
     'arla lactofree semi skimmed milk': ['arla lactofree semi skimmed milk', 'added', 1.5, 2.6, 2.6, 0, 3.5],
     'arla skyr natural': ['arla skyr natural', 'added', 0.4, 4, 4, 0, 10.6],
     'two chicks free range liquid egg white': ['two chicks free range liquid egg white', 'added', 0, 0.8, 0.7, 0, 10.9],
