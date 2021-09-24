@@ -13,7 +13,7 @@ sep17_2021 = {
     },
     
     'Post-workout': {
-        'bulk whey isolate chocolate': 0.3,
+        'bulk whey isolate chocolate': 0.2,
         'banana, raw': 0.5,
     },
     
@@ -21,7 +21,7 @@ sep17_2021 = {
         'tesco basmati rice': 1.5,
 #         'tesco organic white potatoes': 2.5,
 #         'tesco organic sweet potatoes': 2.5,
-        'chicken, breast (cut), raw': 2.5,
+        'chicken, breast (cut), raw': 3,
         'egg, raw': 0.6,
 #         'tesco garden peas in water': .85,
         'tesco organic broccoli, raw': 1,
